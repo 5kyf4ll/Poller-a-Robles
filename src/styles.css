@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(234, 179, 8);
+}
+
+.bg-image {
+  background-image: url("../public/LogoRobles.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-blur {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+iframe {
+  height: 20rem;
+  width: 90%;
+  margin: 1rem auto 0 auto;
+}
+
+@media (min-width: 765px) {
+  iframe {
+    height: 50rem;
+  }
+}
+
+.container-mapa {
+  width: 80%;
+  margin: 0 auto;
+}
